@@ -8,7 +8,7 @@ import MinMax from './components/MinMax';
 
 export default () => (
   <View style={style.App}>
-    <MinMax />
+    <MinMax min={3} max={30} />
     {/* <Comp />
     <Comp1 />
     <Primeiro />
